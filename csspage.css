@@ -1,0 +1,43 @@
+body{
+    width:80%;
+    padding:100px;
+    
+}
+.round{
+    height:200px;
+    width:200px;
+    position:relative;
+    border-radius: 100px;
+    background:yellow;
+   
+}
+
+.eye1{
+    height:24px;
+    width:24px;
+    border-radius: 12px;
+    position:absolute;
+    top:40px;
+    left:60px;
+    background:black;
+}
+.eye2{
+    height:24px;
+    width:24px;
+    border-radius:12px;
+    position:absolute;
+    top: 40px;
+    right:60px;
+    background:black;
+}
+.mouth{
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background:red;
+    height:50px;
+    width:100px;
+    position:absolute;
+    left:50px;
+    top:120px;
+    
+}
